@@ -4,6 +4,7 @@ Here's our first attempt at using data to create a table:
 """
 
 import streamlit as st
+import openpyxl
 st.set_page_config(page_title='Fuel expenditure', layout = 'wide', initial_sidebar_state = 'auto')
 import pandas as pd
 from io import StringIO
